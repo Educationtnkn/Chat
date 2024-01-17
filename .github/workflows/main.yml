@@ -18,7 +18,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r https://github.com/Educationtnkn/Chat/tree/main/.github/workflows/requirements.txt
+        pip install -r https://github.com/Educationtnkn/Chat/tree/main/requirements.txt
 
     - name: Run Flask app
       run: python app.py
